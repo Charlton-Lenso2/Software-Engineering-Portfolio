@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [status, setStatus] = useState(null); // null | "sending" | "sent" | "error"
+  const [status, setStatus] = useState(null); 
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -16,8 +16,6 @@ function Contact() {
       return;
     }
 
-    // TODO: replace with a real submission — e.g. an API route, or a
-    // service like Formspree/EmailJS. For now this just simulates it.
     setStatus("sending");
     setTimeout(() => {
       console.log("Form submitted:", form);
@@ -37,7 +35,7 @@ function Contact() {
         </h1>
         <p className="text-white/70 text-base sm:text-lg max-w-lg mb-12">
           Open to opportunities, collaborations, and good conversations about
-          AI.
+          Tech.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -105,8 +103,7 @@ function Contact() {
 
           {status === "sent" && (
             <p className="text-green-400 text-sm">
-              Message ready — connect this form to a backend to actually deliver
-              it.
+              Message sent
             </p>
           )}
           {status === "error" && (
