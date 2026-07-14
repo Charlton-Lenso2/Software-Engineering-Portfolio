@@ -15,12 +15,12 @@ function HeroFirst() {
             Lenso
           </h2>
           <p className="text-white/60 text-base sm:text-lg max-w-md mx-auto lg:mx-0">
-            Software Engineering student, building toward tech entrepreneurship
-            — with a focus on AI and practical, well-structured products.
+            Software Engineer Turning ideas into functional,
+            user-friendly applications through clean design, efficient code, and
+            a passion for continuous improvement.
           </p>
         </div>
 
-        {/* picture + floating hi bubble */}
         <div className="relative flex-1 flex justify-center lg:justify-end">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-3xl overflow-hidden border border-white/15">
             <img
@@ -31,7 +31,6 @@ function HeroFirst() {
             <div className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent" />
           </div>
 
-          {/* floating "Hi" bubble */}
           <div
             className="absolute -bottom-4 -right-4 sm:bottom-6 sm:-right-6 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white text-black flex items-center justify-center font-['Oswald'] font-semibold text-lg sm:text-xl shadow-[0_0_30px_rgba(255,255,255,0.25)]"
             style={{ animation: "float 3s ease-in-out infinite" }}

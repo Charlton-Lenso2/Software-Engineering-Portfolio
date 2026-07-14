@@ -1,13 +1,13 @@
 const projects = [
   {
-    id: "wallify",
-    title: "Wallify",
-    tag: "React · In progress",
-    desc: "A wallpaper discovery gallery, with a responsive nav and component-driven layout.",
+    id: "WestBrook-Pasta",
+    title: "WestBrook Pasta",
+    tag: "React",
+    desc: "A food website for a pasta restraunt",
     longDesc:
-      "Wallify is a wallpaper discovery and gallery site built to practice component composition in React. It covers reusable card components, a responsive navbar with a hamburger menu, and grid layouts that adapt across breakpoints.",
-    stack: ["React", "Tailwind CSS", "Vite"],
-    link: "#",
+      "WestBrook Pasta is a food website for a pasta restraunt listing all the food available on the food page. Organic Pasta UI, and also the chef's story.",
+    stack: ["React", "CSS", "Vite"],
+    link: "https://west-brook-pasta-website-practice.vercel.app/",
   },
   {
     id: "lenx-tech",
@@ -17,7 +17,7 @@ const projects = [
     longDesc:
       "An e-commerce build following Django's Model-View-Template pattern. Covers a cart implemented with a context processor so it's accessible across every template, a full checkout flow, and admin-managed product listings with image handling.",
     stack: ["Django", "Python", "HTML/CSS"],
-    link: "#",
+    link: "https://github.com/Charlton-Lenso2/Ecommerce-project.git",
   },
   {
     id: "letric-zw",
@@ -25,19 +25,19 @@ const projects = [
     tag: "Branding",
     desc: "Visual identity work for a business in my network, from concept through final assets.",
     longDesc:
-      "Brand identity work covering logo concepts, color system, and final deliverables for a business in my network — from early sketches through to production-ready assets.",
+      "Brand identity work covering logo concepts, color system, and final deliverables for a business in my network, from early sketches through to production-ready assets.",
     stack: ["Figma", "Brand Design"],
     link: "https://www.behance.net/",
   },
   {
-    id: "python-exercises",
-    title: "Python Exercises",
-    tag: "Python · Fundamentals",
-    desc: "OOP, data structures, comprehensions and recursion — the foundation everything else sits on.",
+    id: "team-expense-tracker",
+    title: "Team Expense Tracker",
+    tag: "JavaScript · Fundamentals",
+    desc: "A simple, fully functional web app for logging and tracking shared team expenses.",
     longDesc:
-      "A working collection covering object-oriented programming, core data structures, list/dict comprehensions, and recursion — the fundamentals that everything else in the curriculum built on top of.",
-    stack: ["Python"],
-    link: "#",
+      "A simple, fully functional web app for logging and tracking shared team expenses, built with HTML, CSS, and JavaScript",
+    stack: ["HTML, CSS, JavaScript"],
+    link: "https://github.com/Charlton-Lenso2/Team-expense-tracker.git",
   },
 ];
 

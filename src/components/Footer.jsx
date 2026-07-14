@@ -42,16 +42,14 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-3">Contact</h3>
             <p className="text-sm text-white/70 leading-relaxed">
-              Lorem, ipsum dolor sit amet <br />
-              consectetur adipisicing elit.
+              Whatsapp: +263 788 326 860
             </p>
           </div>
 
           <div>
             <h3 className="text-lg font-bold mb-3">Software Engineer</h3>
             <p className="text-sm text-white/70 leading-relaxed">
-              Lorem ipsum dolor sit amet <br />
-              consectetur adipisicing elit.
+              Turning ideas into digital solutions
             </p>
           </div>
         </div>

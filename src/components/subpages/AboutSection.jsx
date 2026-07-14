@@ -1,4 +1,4 @@
-import profilePic from "../../assets/profile.jpeg"
+import profilePic from "../../assets/profile.jpeg";
 
 const skills = [
   "JavaScript",
@@ -7,6 +7,10 @@ const skills = [
   "Django",
   "Tailwind CSS",
   "Git",
+  "HTML",
+  "Raw CSS",
+  "Basic Digital Marketing",
+  "Basic Product Designing",
 ];
 
 function AboutSection() {
@@ -22,21 +26,23 @@ function AboutSection() {
         <h2 className="font-['Oswald'] uppercase font-semibold text-3xl sm:text-5xl mb-10 sm:mb-14">
           Who I Am
         </h2>
-        {/* text + picture */}
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
           <div className="space-y-5 text-white/70 text-base sm:text-lg leading-relaxed font-['Segoe_UI','Tahoma','Geneva','Verdana',sans-serif] order-2 md:order-1">
             <p>
-              I'm a software engineering student at Uncommon.org's bootcamp in
-              Zimbabwe, working through a curriculum that's taken me from
-              JavaScript fundamentals through React, Python and Django. Outside
-              coursework, I run{" "}
-              <span className="text-white">Youth for Change</span>, a WhatsApp
-              channel focused on empowering young people.
+              I'm a Software Engineer at Uncommon.org's Bootcamp in Zimbabwe,
+              where I'm developing a strong foundation in modern software
+              development. Through hands-on projects, I've gained experience
+              with JavaScript, React, Python, and Django while strengthening my
+              problem-solving skills and writing clean, maintainable code.
             </p>
+
             <p>
-              I like building with a clear structural plan before writing a
-              single line. Long term, I'm aiming toward building my own products
-              at the intersection of AI and everyday problems.
+              I enjoy building applications that are both functional and
+              user-friendly, with a strong focus on thoughtful planning,
+              attention to detail, and continuous improvement. I'm always eager
+              to learn new technologies, take on challenging projects, and grow
+              as a developer by creating software that delivers meaningful
+              value.
             </p>
           </div>
 
@@ -51,10 +57,8 @@ function AboutSection() {
             </div>
           </div>
         </div>
-        #
       </div>
 
-      {/* toolkit marquee — full width, breaks out of the max-w container */}
       <div className="mt-16 sm:mt-20">
         <p className="text-white/50 text-xs sm:text-sm uppercase tracking-[0.2em] font-['Oswald'] text-center mb-6">
           Toolkit

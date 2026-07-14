@@ -2,24 +2,24 @@ import profilePic from "../../assets/profile.jpeg";
 
 const journey = [
   {
-    year: "Early 2025",
-    title: "Started at Uncommon.org",
+    year: "Crash Course 2026",
+    title: "Started the Software Development Crash Course",
     desc: "HTML, CSS, and Python basics.",
   },
   {
-    year: "Mid 2025",
+    year: "Crash Course 2026",
     title: "Core Foundations",
     desc: "Python OOP, Git, Agile planning, portfolio building.",
   },
   {
-    year: "Late 2025",
-    title: "JavaScript & React",
-    desc: "DOM manipulation, components, props, hooks.",
+    year: "Crash course 2026",
+    title: "Django & Beyond",
+    desc: "Front-end projects, e-commerce apps.",
   },
   {
-    year: "2026",
-    title: "Django & Beyond",
-    desc: "Full-stack projects, e-commerce apps, and this portfolio.",
+    year: "Currently",
+    title: "JavaScript & React",
+    desc: "DOM manipulation, components, props, hooks, this portfolio",
   },
 ];
 
@@ -30,6 +30,10 @@ const skills = [
   "Django",
   "Tailwind CSS",
   "Git",
+  "HTML",
+  "Raw CSS",
+  "Basic Digital Marketing",
+  "Basic Product Designing",
 ];
 
 function About() {
@@ -46,17 +50,29 @@ function About() {
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mb-20">
           <div className="space-y-5 text-white/70 text-base sm:text-lg leading-relaxed order-2 md:order-1">
             <p>
-              I'm a software engineering student at Uncommon.org's bootcamp in
-              Zimbabwe, working through a curriculum that's taken me from
-              JavaScript fundamentals through React, Python and Django. Outside
-              coursework, I run{" "}
-              <span className="text-white">Youth for Change</span>, a WhatsApp
-              channel focused on empowering young people.
+              Hello! I'm <span className="text-white">Charlton Lenso</span>, a
+              Software Engineering student with a passion for building
+              thoughtful, reliable, and user-centered digital experiences. I
+              enjoy transforming ideas into applications that are not only
+              functional but also intuitive, scalable, and designed with
+              purpose.
             </p>
+
             <p>
-              I like building with a clear structural plan before writing a
-              single line. Long term, I'm aiming toward building my own products
-              at the intersection of AI and everyday problems.
+              My journey has given me hands-on experience with technologies such
+              as JavaScript, React, Python, and Django, while reinforcing the
+              importance of writing clean code, solving problems methodically,
+              and continuously refining my craft. Every project is an
+              opportunity to learn something new and improve as a developer.
+            </p>
+
+            <p>
+              I believe great software starts with understanding the problem
+              before designing the solution. Whether I'm planning an
+              application's architecture, developing new features, or improving
+              the user experience, I approach every challenge with curiosity,
+              attention to detail, and a commitment to building solutions that
+              make a meaningful impact.
             </p>
           </div>
 
@@ -72,7 +88,6 @@ function About() {
           </div>
         </div>
 
-        {/* journey timeline */}
         <p className="text-white/50 text-xs sm:text-sm uppercase tracking-[0.2em] font-['Oswald'] mb-8">
           My Journey
         </p>
@@ -91,7 +106,6 @@ function About() {
           ))}
         </div>
 
-        {/* toolkit marquee */}
         <p className="text-white/50 text-xs sm:text-sm uppercase tracking-[0.2em] font-['Oswald'] text-center mb-6">
           Toolkit
         </p>

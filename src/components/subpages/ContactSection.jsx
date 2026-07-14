@@ -13,7 +13,7 @@ function ContactSection() {
         </h2>
         <p className="text-white/70 text-base sm:text-lg max-w-lg mb-10 sm:mb-14 font-['Segoe_UI','Tahoma','Geneva','Verdana',sans-serif]">
           Open to opportunities, collaborations, and good conversations about
-          AI. Reach out through any of these.
+          AI and Zimbabwe Technology. Reach out through any of these.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">

@@ -18,10 +18,10 @@ const projects = [
     link: "https://www.behance.net/",
   },
   {
-    title: "Python Exercises",
-    tag: "Python · Fundamentals",
-    desc: "OOP, data structures, comprehensions and recursion — the foundation everything else sits on.",
-    link: "#",
+    title: "Team Expense Tracker",
+    tag: "JavaScript · Fundamentals",
+    desc: "A simple, fully functional web app for logging and tracking shared team expenses, built with HTML, CSS, and JavaScript",
+    link: "https://github.com/Charlton-Lenso2/Team-expense-tracker.git",
   },
 ];
 
