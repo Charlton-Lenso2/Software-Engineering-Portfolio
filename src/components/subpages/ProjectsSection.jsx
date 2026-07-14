@@ -1,15 +1,15 @@
 const projects = [
   {
-    title: "Wallify",
+    title: "WestBrook Pasta",
     tag: "React · In progress",
-    desc: "A wallpaper discovery gallery, with a responsive nav and component-driven layout.",
-    link: "#",
+    desc: "WestBrook Pasta is a food website for a pasta restraunt listing all the food available on the food page. Organic Pasta UI, and also the chef's story.",
+    link: "https://west-brook-pasta-website-practice.vercel.app/",
   },
   {
     title: "Lenx Tech",
     tag: "Django · E-commerce",
     desc: "Full MVT store: cart via context processor, checkout flow, and admin-managed listings.",
-    link: "#",
+    link: "https://github.com/Charlton-Lenso2/Ecommerce-project.git",
   },
   {
     title: "Letric ZW",
