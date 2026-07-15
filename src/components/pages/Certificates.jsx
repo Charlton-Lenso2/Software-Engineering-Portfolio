@@ -1,5 +1,4 @@
 import certificates from "../../data/certificates";
-import certif from "../../../public/certificates/AI.png"
 
 function Certificates() {
   return (
@@ -12,14 +11,14 @@ function Certificates() {
         {certificates.map((cert) => (
           <a
             key={cert.id}
-            href={certif}
+            href={cert.image}
             target="_blank"
             rel="noopener noreferrer"
             className="group border border-white/15 rounded-2xl overflow-hidden bg-white/5 hover:bg-white/10 transition-colors duration-300"
           >
             <div className="aspect-4/3 w-full overflow-hidden">
               <img
-                src={certif}
+                src={cert.image}
                 alt={cert.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
