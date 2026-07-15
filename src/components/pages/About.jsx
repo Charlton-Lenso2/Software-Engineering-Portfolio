@@ -1,4 +1,5 @@
-import profilePic from "../../assets/profile.jpeg";
+import profilePic from "../../assets/profile3.jpeg";
+import Certificates from "./Certificates";
 
 const journey = [
   {
@@ -133,6 +134,7 @@ function About() {
           @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
           .animate-marquee { animation: marquee 18s linear infinite; }
         `}</style>
+        <Certificates />
       </div>
     </section>
   );
