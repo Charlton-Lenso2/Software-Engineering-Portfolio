@@ -32,7 +32,6 @@ function Navbar() {
           className={`flex items-center justify-between w-full transition-all duration-300 ease-in-out
           ${scrolled ? "h-13 px-3" : "h-16 px-4 sm:px-5"}`}
         >
-          {/* name OR picture, depending on scroll */}
           <div className="relative w-10 h-10 sm:w-12 sm:h-12 shrink-0">
             <h1
               className={`absolute inset-0 flex items-center font-['Oswald'] font-semibold whitespace-nowrap transition-opacity duration-300 text-lg sm:text-2xl

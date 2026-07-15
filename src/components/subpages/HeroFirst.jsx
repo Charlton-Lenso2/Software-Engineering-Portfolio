@@ -4,7 +4,6 @@ function HeroFirst() {
   return (
     <section className="bg-black text-white px-6 sm:px-10 py-20 sm:py-28">
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-        {/* text */}
         <div className="flex-1 text-center lg:text-left">
           <p className="text-white/50 text-sm uppercase tracking-[0.2em] font-['Oswald'] mb-4">
             It's me
