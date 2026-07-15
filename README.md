@@ -3,7 +3,7 @@
 A personal portfolio site built with React and Tailwind CSS, showcasing my
 projects, background, and journey as a software engineering student.
 
-**Live site:** 
+**Live site:** https://software-engineering-portfolio-blush.vercel.app/
 
 ## About
 
