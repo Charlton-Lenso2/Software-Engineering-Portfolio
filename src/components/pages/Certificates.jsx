@@ -1,5 +1,5 @@
 import certificates from "../../data/certificates";
-import certif from "../../assets/certificates/AI.png"
+import certif from "../../../public/certificates/AI.png"
 
 function Certificates() {
   return (
