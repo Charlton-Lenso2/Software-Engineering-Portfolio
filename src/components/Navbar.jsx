@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import profilePic from "../assets/profile.jpeg"; 
+import profilePic from "../assets/profile333.jpg"; 
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
