@@ -2,13 +2,13 @@ import { useState } from "react";
 
 function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [status, setStatus] = useState(null); 
+  const [status, setStatus] = useState(null);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!form.name || !form.email || !form.message) {
@@ -17,11 +17,23 @@ function Contact() {
     }
 
     setStatus("sending");
-    setTimeout(() => {
-      console.log("Form submitted:", form);
-      setStatus("sent");
-      setForm({ name: "", email: "", message: "" });
-    }, 800);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mrenejnn", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      if (response.ok) {
+        setStatus("sent");
+        setForm({ name: "", email: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch (err) {
+      setStatus("error");
+    }
   };
 
   return (
@@ -102,9 +114,7 @@ function Contact() {
           </button>
 
           {status === "sent" && (
-            <p className="text-green-400 text-sm">
-              Message sent
-            </p>
+            <p className="text-green-400 text-sm">Message sent</p>
           )}
           {status === "error" && (
             <p className="text-red-400 text-sm">
