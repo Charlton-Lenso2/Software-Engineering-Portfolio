@@ -2,7 +2,7 @@ import profilePic from "../../assets/profile2.jpeg";
 
 function HeroFirst() {
   return (
-    <section className="bg-black text-white px-6 sm:px-10 py-20 sm:py-28">
+    <section className="bg-black text-white px-6 sm:px-10 pt-24 sm:pt-28 pb-20 sm:pb-28">
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         <div className="flex-1 text-center lg:text-left">
           <p className="text-white/50 text-sm uppercase tracking-[0.2em] font-['Oswald'] mb-4">
@@ -14,9 +14,9 @@ function HeroFirst() {
             Lenso
           </h2>
           <p className="text-white/60 text-base sm:text-lg max-w-md mx-auto lg:mx-0">
-            Software Engineer Turning ideas into functional,
-            user-friendly applications through clean design, efficient code, and
-            a passion for continuous improvement.
+            Software Engineer Turning ideas into functional, user-friendly
+            applications through clean design, efficient code, and a passion for
+            continuous improvement.
           </p>
         </div>
 

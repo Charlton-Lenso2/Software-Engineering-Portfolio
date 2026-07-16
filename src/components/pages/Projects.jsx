@@ -47,6 +47,22 @@ function Projects() {
             </a>
           ))}
         </div>
+        <a
+          href="https://github.com/Charlton-Lenso2"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex flex-col items-center justify-center text-center border border-dashed border-white/25 rounded-2xl p-6 sm:p-8 hover:bg-white/5 hover:border-white/40 transition-all duration-300"
+        >
+          <span className="text-3xl mb-3 text-white/50 group-hover:text-white group-hover:translate-x-1 transition-all duration-300">
+            ↗
+          </span>
+          <h2 className="font-['Oswald'] uppercase font-semibold text-lg sm:text-xl mb-2">
+            View More on GitHub
+          </h2>
+          <p className="text-sm text-white/50">
+            Smaller experiments, exercises, and work in progress.
+          </p>
+        </a>
       </div>
     </section>
   );
