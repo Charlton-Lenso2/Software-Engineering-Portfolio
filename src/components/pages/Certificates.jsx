@@ -192,7 +192,7 @@ function Certificates() {
           </div>
           <div className="p-4">
             <h3 className="font-['Oswald'] uppercase text-sm sm:text-base font-semibold mb-1">
-              Introduction To Software <Engineering></Engineering>
+              Introduction To Software Engineering
             </h3>
             <p className="text-white/40 text-xs uppercase tracking-wide mb-2">
               IBM Coursera
