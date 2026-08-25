@@ -4,6 +4,7 @@ import marketing from "../../assets/certificates/Marketing.png";
 import ai from "../../assets/certificates/AI.png";
 import ai1 from "../../assets/certificates/AI1.png";
 import ux from "../../assets/certificates/UX.png";
+import SE from "../../assets/certificates/SE.png"
 
 function Certificates() {
   return (
@@ -171,6 +172,33 @@ function Certificates() {
             </p>
             <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
               Design thinking, UX fundamentals, and prototyping basics.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href={SE}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border border-white/15 rounded-2xl overflow-hidden bg-white/5 hover:bg-white/10 transition-colors duration-300"
+        >
+          <div className="aspect-4/3 w-full overflow-hidden">
+            <img
+              src={SE}
+              alt="Introduction To Software Engineering"
+              loading="lazy"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="font-['Oswald'] uppercase text-sm sm:text-base font-semibold mb-1">
+              Introduction To Software <Engineering></Engineering>
+            </h3>
+            <p className="text-white/40 text-xs uppercase tracking-wide mb-2">
+              IBM Coursera
+            </p>
+            <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
+              Introduction to software engineering, SDLC 
             </p>
           </div>
         </a>

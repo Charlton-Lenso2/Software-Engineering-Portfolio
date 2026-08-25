@@ -18,19 +18,28 @@ const journey = [
     desc: "Front-end projects, e-commerce apps.",
   },
   {
-    year: "Currently",
+    year: "Software Enginnering specialization first weeks",
     title: "JavaScript & React",
     desc: "DOM manipulation, components, props, hooks, this portfolio",
+  },
+  {
+    year: "Currently",
+    title: "Full Stack",
+    desc: "Creating a full stack website with React, PostgreSQL, and Express",
   },
 ];
 
 const skills = [
   "JavaScript",
   "React",
+  "Nodejs",
+  "Express",
+  "REST APIs",
   "Python",
   "Django",
   "Tailwind CSS",
   "Git",
+  "GitHub Collaboration",
   "HTML",
   "Raw CSS",
   "Basic Digital Marketing",
@@ -52,7 +61,7 @@ function About() {
           <div className="space-y-5 text-white/70 text-base sm:text-lg leading-relaxed order-2 md:order-1">
             <p>
               Hello! I'm <span className="text-white">Charlton Lenso</span>, a
-              Software Engineering student with a passion for building
+              Software Engineer with a passion for building
               thoughtful, reliable, and user-centered digital experiences. I
               enjoy transforming ideas into applications that are not only
               functional but also intuitive, scalable, and designed with

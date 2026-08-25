@@ -39,6 +39,34 @@ const projects = [
     stack: ["HTML, CSS, JavaScript"],
     link: "https://github.com/Charlton-Lenso2/Team-expense-tracker.git",
   },
+  {
+    id: "dev-class-portal",
+    title: "Dev Class Portal",
+    tag: "Frontend · Backend",
+    desc: "A community portal for developers",
+    longDesc:
+      "A simple, fully functional website for a small community to see events, notifications and announcements",
+    stack: ["Full stack"],
+    link: "https://devclassportal.vercel.app",
+  },
+  {
+    id: "furniture website",
+    title: "Darion Furniture Website",
+    tag: "React · Tailwind CSS",
+    desc: "A furniture website",
+    longDesc: "A furniture website showing a collection of timeless furniture",
+    stack: ["Frontend"],
+    link: "https://furniture-website-five-weld.vercel.app/",
+  },
+  {
+    id: "wallpaper website",
+    title: "Wallify Wallpaper Website",
+    tag: "React · Raw CSS · APIs",
+    desc: "A wallpaper website",
+    longDesc: "A wallpaper website for desktop and phone wallpapers",
+    stack: ["Frontend"],
+    link: "https://wallify-wallpaper-website.vercel.app/",
+  },
 ];
 
 export default projects;

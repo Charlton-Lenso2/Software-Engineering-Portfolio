@@ -23,6 +23,12 @@ const projects = [
     desc: "A simple, fully functional web app for logging and tracking shared team expenses, built with HTML, CSS, and JavaScript",
     link: "https://github.com/Charlton-Lenso2/Team-expense-tracker.git",
   },
+  {
+    title: "Dev Class portal",
+    tag: "Full Stack website",
+    desc: "A simple, fully functional website for a small community to see events, notifications and announcements",
+    link: "https://devclassportal.vercel.app",
+  },
 ];
 
 function ProjectsSection() {
