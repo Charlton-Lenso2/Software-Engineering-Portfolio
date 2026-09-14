@@ -29,6 +29,12 @@ const projects = [
     desc: "A simple, fully functional website for a small community to see events, notifications and announcements",
     link: "https://devclassportal.vercel.app",
   },
+  {
+    title: "Jordan Archive",
+    tag: "React · Raw CSS · Scroll-lock",
+    desc: "A website for jordan shoes showing a collection of jordan shoes and their details",
+    link: "https://jordan-archive.vercel.app",
+  },
 ];
 
 function ProjectsSection() {

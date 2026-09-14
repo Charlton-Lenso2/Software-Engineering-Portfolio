@@ -67,6 +67,24 @@ const projects = [
     stack: ["Frontend"],
     link: "https://wallify-wallpaper-website.vercel.app/",
   },
+  {
+    id: "Jordan Archive",
+    title: "Jordan Archive",
+    tag: "React · Raw CSS · Scroll-lock",
+    desc: "A website for jordan shoes",
+    longDesc: "A website for jordan shoes showing a collection of jordan shoes and their details",
+    stack: ["Frontend"],
+    link: "https://jordan-archive.vercel.app/",
+  },
+  {
+    id: "Qr generator",
+    title: "Qr generator",
+    tag: "React · Raw CSS ",
+    desc: "A QR code generator",
+    longDesc: "A simple QR code generator built with React and Tailwind CSS",
+    stack: ["Frontend"],
+    link: "https://qrgenerator-jade.vercel.app/",
+  },
 ];
 
 export default projects;
