@@ -38,7 +38,7 @@ Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/Charlton-Lenso2/Software-Engineering-Portfolio.git
-cd portfolio
+cd Software-Engineering-Portfolio
 npm install
 ```
 
