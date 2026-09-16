@@ -91,8 +91,7 @@ src/
 ## Acknowledgements
 
 Built as part of the Uncommon.org software engineering bootcamp curriculum,
-with AI assistance (Claude) used to help learn and apply Tailwind CSS
-concepts throughout the build.
+with assistance from my instructors.
 
 ## License
 
