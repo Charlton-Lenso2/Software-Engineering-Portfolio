@@ -34,10 +34,11 @@ function AboutSection() {
           <div className="space-y-5 text-white/70 text-base sm:text-lg leading-relaxed font-['Segoe_UI','Tahoma','Geneva','Verdana',sans-serif] order-2 md:order-1">
             <p>
               I'm a Software Engineer at Uncommon.org's Bootcamp in Zimbabwe,
-              where I'm developing a strong foundation in modern software
+              where I'm building a strong foundation in modern software
               development. Through hands-on projects, I've gained experience
-              with JavaScript, React, Python, and Django while strengthening my
-              problem-solving skills and writing clean, maintainable code.
+              with JavaScript, React, Python, and Django while improving my
+              problem-solving skills and writing cleaner, more maintainable
+              code.
             </p>
 
             <p>
@@ -45,8 +46,7 @@ function AboutSection() {
               user-friendly, with a strong focus on thoughtful planning,
               attention to detail, and continuous improvement. I'm always eager
               to learn new technologies, take on challenging projects, and grow
-              as a developer by creating software that delivers meaningful
-              value.
+              as a developer by creating software that delivers real value.
             </p>
           </div>
 

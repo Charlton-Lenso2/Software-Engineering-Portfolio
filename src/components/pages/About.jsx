@@ -10,22 +10,22 @@ const journey = [
   {
     year: "Crash Course 2026",
     title: "Core Foundations",
-    desc: "Python OOP, Git, Agile planning, portfolio building.",
+    desc: "Python OOP, Git, Agile planning, and portfolio building.",
   },
   {
     year: "Crash course 2026",
     title: "Django & Beyond",
-    desc: "Front-end projects, e-commerce apps.",
+    desc: "Front-end projects and e-commerce apps.",
   },
   {
-    year: "Software Enginnering specialization first weeks",
+    year: "Software Engineering specialization first weeks",
     title: "JavaScript & React",
-    desc: "DOM manipulation, components, props, hooks, this portfolio",
+    desc: "DOM manipulation, components, props, hooks, and this portfolio.",
   },
   {
     year: "Currently",
     title: "Full Stack",
-    desc: "Creating a full stack website with React, PostgreSQL, and Express",
+    desc: "Creating a full-stack website with React, PostgreSQL, and Express.",
   },
 ];
 
@@ -61,26 +61,25 @@ function About() {
           <div className="space-y-5 text-white/70 text-base sm:text-lg leading-relaxed order-2 md:order-1">
             <p>
               Hello! I'm <span className="text-white">Charlton Lenso</span>, a
-              Software Engineer with a passion for building
-              thoughtful, reliable, and user-centered digital experiences. I
-              enjoy transforming ideas into applications that are not only
-              functional but also intuitive, scalable, and designed with
+              Software Engineer focused on building thoughtful, reliable, and
+              user-centered digital experiences. I enjoy turning ideas into
+              applications that are functional, intuitive, and built with
               purpose.
             </p>
 
             <p>
-              My journey has given me hands-on experience with technologies such
-              as JavaScript, React, Python, and Django, while reinforcing the
-              importance of writing clean code, solving problems methodically,
-              and continuously refining my craft. Every project is an
-              opportunity to learn something new and improve as a developer.
+              My journey has given me hands-on experience with JavaScript,
+              React, Python, and Django, while reinforcing the importance of
+              writing clean code, solving problems methodically, and continuing
+              to improve my craft. Every project is an opportunity to learn
+              something new and grow as a developer.
             </p>
 
             <p>
-              I believe great software starts with understanding the problem
+              I believe good software starts with understanding the problem
               before designing the solution. Whether I'm planning an
-              application's architecture, developing new features, or improving
-              the user experience, I approach every challenge with curiosity,
+              application's architecture, developing new features, or refining
+              the user experience, I approach each challenge with curiosity,
               attention to detail, and a commitment to building solutions that
               make a meaningful impact.
             </p>

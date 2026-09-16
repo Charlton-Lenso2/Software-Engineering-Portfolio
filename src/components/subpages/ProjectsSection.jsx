@@ -2,37 +2,37 @@ const projects = [
   {
     title: "WestBrook Pasta",
     tag: "React · In progress",
-    desc: "WestBrook Pasta is a food website for a pasta restraunt listing all the food available on the food page. Organic Pasta UI, and also the chef's story.",
+    desc: "WestBrook Pasta is a restaurant website featuring menu items, brand storytelling, and a clean food-focused layout.",
     link: "https://west-brook-pasta-website-practice.vercel.app/",
   },
   {
     title: "Lenx Tech",
     tag: "Django · E-commerce",
-    desc: "Full MVT store: cart via context processor, checkout flow, and admin-managed listings.",
+    desc: "A full MVT e-commerce store with cart logic, a checkout flow, and admin-managed product listings.",
     link: "https://github.com/Charlton-Lenso2/Ecommerce-project.git",
   },
   {
     title: "Letric ZW",
     tag: "Branding",
-    desc: "Visual identity work for a business in my network, from concept through final assets.",
+    desc: "Visual identity work for a business in my network, from concept through final brand assets.",
     link: "https://www.behance.net/",
   },
   {
     title: "Team Expense Tracker",
     tag: "JavaScript · Fundamentals",
-    desc: "A simple, fully functional web app for logging and tracking shared team expenses, built with HTML, CSS, and JavaScript",
+    desc: "A simple, fully functional web app for tracking shared team expenses using HTML, CSS, and JavaScript.",
     link: "https://github.com/Charlton-Lenso2/Team-expense-tracker.git",
   },
   {
     title: "Dev Class portal",
     tag: "Full Stack website",
-    desc: "A simple, fully functional website for a small community to see events, notifications and announcements",
+    desc: "A simple community website for events, notifications, and announcements.",
     link: "https://devclassportal.vercel.app",
   },
   {
     title: "Jordan Archive",
     tag: "React · Raw CSS · Scroll-lock",
-    desc: "A website for jordan shoes showing a collection of jordan shoes and their details",
+    desc: "A product showcase website for Jordan shoes featuring a collection and product details.",
     link: "https://jordan-archive.vercel.app",
   },
 ];
