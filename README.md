@@ -37,7 +37,7 @@ template, every section was built and understood component by component.
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/Charlton-Lenso2/portfolio.git
+git clone https://github.com/Charlton-Lenso2/Software-Engineering-Portfolio.git
 cd portfolio
 npm install
 ```
